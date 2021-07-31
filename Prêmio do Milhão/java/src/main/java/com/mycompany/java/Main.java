@@ -1,13 +1,10 @@
 package com.mycompany.java;
-
 import java.util.Scanner;
-
 public class Main {
     public static void main(String[] args) {
         Scanner scan =  new Scanner(System.in);
         
-        int number = scan.nextInt();
-        
+        int number = scan.nextInt();        
         int input[] = new int[number];
         
         for(int i=0; i < number; i++){
@@ -23,9 +20,6 @@ public class Main {
                 break;
             }
         }
-        
-        System.out.print(day);
-        
-    }
-    
+        System.out.print(day);    
+    }  
 }
